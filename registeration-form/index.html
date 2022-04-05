@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="registeration">
+        <div class="register_bg"></div>
+        <form class="register_form" onsubmit="event.preventDefault(); validation();">
+            <h2>Register Yourself</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus eum error pariatur beatae.</p>
+
+            <div class="row">
+                <div class="col-6">
+                    <div class="form_group">
+                        <label for="fname">First Name</label>
+                        <input type="text" class="form-control" id="fname" name="student" />
+                        <span class="error" id="fname_error"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form_group">
+                        <label for="lname">Last Name</label>
+                        <input type="text" class="form-control" id="lname" name="student" />
+                        <span class="error" id="lname_error"></span>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form_group">
+                        <label for="uniname">University Name</label>
+                        <input type="text" class="form-control" id="uniname" name="student" />
+                        <span class="error" id="uniname_error"></span>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form_group">
+                        <label for="uniname">Course Name</label>
+                        <input type="text" class="form-control" id="coursename" name="student" />
+                        <span class="error" id="coursename_error"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form_group">
+                        <label for="stuid">Student ID</label>
+                        <input type="text" class="form-control" id="stuid" name="student" />
+                        <span class="error" id="stuid_error"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form_group">
+                        <label for="class">Class</label>
+                        <input type="text" class="form-control" id="class" name="student" />
+                        <span class="error" id="class_error"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form_group">
+                        <label for="rollno">Roll Number</label>
+                        <input type="text" class="form-control" id="rollno" name="student" />
+                        <span class="error" id="rollno_error"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form_group">
+                        <label for="age">Age</label>
+                        <input type="text" class="form-control" id="age" name="student" />
+                        <span class="error" id="age_error"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form_group">
+                        <label for="fatherName">Father Name</label>
+                        <input type="text" class="form-control" id="fatherName" name="student" />
+                        <span class="error" id="fatherName_error"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form_group">
+                        <label for="mothername">Mother Name</label>
+                        <input type="text" class="form-control" id="mothername" name="student" />
+                        <span class="error" id="mothername_error"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <button class="submit" type="submit" onclick="validation()">Submit</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <script src="custom.js"></script>
+</body>
+</html>

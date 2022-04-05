@@ -1,0 +1,7 @@
+{
+  "products": [
+    {"id":1,"pname":"This is a Heading 1","price":2345,"quantity":2},
+    {"id":2,"pname":"This is a Heading 2","price":3345,"quantity":3},
+    {"id":3,"pname":"This is a Heading 3","price":4345,"quantity":4}
+  ]
+}

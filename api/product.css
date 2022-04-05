@@ -1,0 +1,104 @@
+body{
+    background: #6a6a6a;
+}
+
+/* buttons css start */
+
+.btn-primary {
+    background: orange;
+    border-color: #ffa500;
+}
+
+.btn-primary:hover{
+    background: gold !important;
+    border-color: gold !important;
+}
+
+.btn-product {
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+/* product css start */
+
+.produts {
+    padding: 40px 0px;
+}
+
+
+
+div#product_row div[class^="col"] {
+    margin-bottom: 25px;
+}
+
+.product_card {
+    background: rgba(250,250,250,0.2);
+    border: 1px solid goldenrod;
+    padding: 46px 30px 25px 20px;
+    text-align: left;
+    height: 100%;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+
+.prdoId {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: orange;
+    padding: 6px 15px;
+}
+
+
+.product_card .prod_title {
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #fff;
+}
+
+
+.product_card p {
+    margin: 0;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quantitySpan {
+    font-size: 15px;
+    color: rgba(250,250,250,0.6);
+}
+
+.quantitySpan i{
+    font-style: normal;
+    color: #fff;
+    margin-left: 5px;
+    background: rgba(0,0,0,0.1);
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.product_card hr{
+    border-color: rgba(250,250,250,0.3);
+}
+
+.price {
+    font-size: 25px;
+    color: yellow;
+    font-weight: 500;
+}
+
+
+.btn-edit {
+    margin-right: 15px;
+}
+

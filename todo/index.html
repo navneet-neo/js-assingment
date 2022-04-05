@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Todo List</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="todo.css" />
+  </head>
+  <body>
+    <div class="container p-4">
+      <form id="taskForm">
+        <div class="row">
+          <div class="col-lg-2 col-md-2">
+            <label style="font-size: 23px; margin-top: 2px">Task Name:</label>
+          </div>
+
+          <div class="col-lg-8 col-md-8">
+            <input
+              type="text"
+              class="form-control"
+              id="taskTextbox"
+              placeholder="Enter task name"
+            />
+          </div>
+          <div class="col-lg-2">
+            <button
+              type="button"
+              class="btn btn-primary btn-block text-left task_button show"
+              id="btnAddTask"
+            >
+              Add <i class="fa fa-plus pull-right mt-1"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <ul class="todo_list" id="nodeList">
+        <li id="noTaskLi">
+          <div class="no_task">No task added yet</div>
+        </li>
+        <!-- <li>
+          <i class="sno">1</i>
+          <label for="ckbox_1" class="ckb_label">
+            <input type="checkbox" name="todo_checkbox" id="ckbox_1" class="hidden_field" name="todocheckbox" />
+            Label1
+            <span></span>
+          </label>
+
+          <button class="btn_edit" id="edit_btn_1"><i class="fa fa-pencil"></i></button>
+          <button class="btn_delete" id="delete_btn_1"><i class="fa fa-trash"></i></button>
+        </li> -->
+        
+      </ul>
+      <div id="snackbar"></div>
+
+    </div>
+
+    <script src="custom.js"></script>
+  </body>
+</html>

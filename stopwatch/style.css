@@ -1,0 +1,48 @@
+/* Variabes */
+/* Mixin's */
+body {
+  background: #ffa600;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.clock {
+    max-width: 1170px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.clock h2 {
+    font-size: 82px;
+    color: #fff;
+    margin-bottom: 53px;
+}
+
+
+.clock_box {
+    border: 1px solid #fff;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 49px;
+    overflow: hidden;
+}
+
+.clock_box span {
+    border-left: 1px solid #fff;
+    padding: 20px;
+    display: inline-block;
+    min-width: 65px;
+}
+
+.clock_box span:first-child{
+    border-left: 0;
+}
